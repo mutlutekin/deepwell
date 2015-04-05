@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>sublime-text</Name>
+        <Homepage>www.sublimetext.com</Homepage>
+        <Packager>
+            <Name>deepwell</Name>
+            <Email>deepwell@tutanota.com</Email>
+        </Packager>
+        <License>GPLv3</License>
+        <PartOf>editor</PartOf>
+        <IsA>app:gui</IsA>
+        <Summary>derleyici</Summary>
+        <Description>editör</Description>
+        <BuildDependencies>
+            <Dependency>bash</Dependency>
+            <Dependency>desktop-file-utils</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>libpng</Dependency>
+            <Dependency>shared-mime-info</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </BuildDependencies>
+        <Archive sha1sum="c48f10369042d38b10fd3bc72f2b48bce60316d9" type="tarbz2">/home/deepwell/İndirilenler/Sublime Text 2.0.2 x64.tar.bz2</Archive>
+    </Source>
+    <Package>
+        <Name>sublime-text</Name>
+        <RuntimeDependencies>
+            <Dependency>bash</Dependency>
+            <Dependency>desktop-file-utils</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>libpng</Dependency>
+            <Dependency>shared-mime-info</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-04-04</Date>
+            <Version>2.6</Version>
+            <Comment>sublime-text2</Comment>
+            <Name>deepwell</Name>
+            <Email>deepwell@tutanota.com</Email>
+        </Update>
+    </History>
+</PISI>
+
+<!-- By PiSiDo 2.0.0 -->
